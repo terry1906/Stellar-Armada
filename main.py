@@ -2,7 +2,7 @@ import pygame
 import sys
 import random
 import math
-from PyQt6.QtWidgets import QApplication  # Дополнительных окон не используется
+from PyQt6.QtWidgets import QApplication
 
 # ============ ИНИЦИАЛИЗАЦИЯ ================
 pygame.init()
@@ -12,11 +12,10 @@ pygame.display.set_caption("Shooter Game")
 clock = pygame.time.Clock()
 
 # --- Фоновая музыка ---
-current_music = None  # Глобальная переменная для отслеживания текущего трека
+current_music = None  
 
 
 def update_music():
-    """Обновляет музыку в зависимости от уровня.
        Если уровень боссовой (level % 5 == 0), нормальная музыка ставится на паузу,
        и запускается музыка для босса, иначе – воспроизводится нормальная музыка.
     """
@@ -669,7 +668,6 @@ def check_collisions():
 
 
 # ============= ЭКРАН МЕНЮ =============
-# Анимированный фон для меню – теперь файлы называются от "1.png" до "12.png"
 menu_bg_frames = []
 for i in range(1, 13):
     try:
@@ -950,4 +948,3 @@ def main():
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     main()
-
