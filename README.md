@@ -23,4 +23,4 @@
 ### Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/stellar-armada.git
+git clone https://github.com/terry1906/Stellar-Armada
