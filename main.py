@@ -7,7 +7,7 @@ import math
 pygame.init()
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Shooter Game")
+pygame.display.set_caption("Stellar Armada")
 clock = pygame.time.Clock()
 
 # --- Фоновая музыка ---
