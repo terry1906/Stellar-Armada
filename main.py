@@ -2,7 +2,6 @@ import pygame
 import sys
 import random
 import math
-from PyQt6.QtWidgets import QApplication
 
 # ============ ИНИЦИАЛИЗАЦИЯ ================
 pygame.init()
